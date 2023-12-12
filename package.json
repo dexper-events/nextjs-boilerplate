@@ -8,14 +8,17 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "engines": {
+    "node": "^18.14.0"
+  },
   "dependencies": {
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.0.4"
+    "next": "^13.1.6"
   },
   "devDependencies": {
     "typescript": "^5",
-    "@types/node": "^20",
+    "@types/node": "^17.0.42",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
